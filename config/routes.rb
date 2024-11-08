@@ -8,6 +8,12 @@ Rails.application.routes.draw do
 
   get "/plants" => "plants#index"
   get "/plants/:id" => "plants#show"
+  
+  post"/users" => "users#create"
+  
+  get "/schedules" => "schedules#index"
+  get "/schedules/:id" => "schedules#show"
+
 
   # ---------------------------
   # Defines the root path route ("/")
