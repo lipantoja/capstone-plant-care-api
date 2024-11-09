@@ -17,9 +17,9 @@
 # user.save
 
 schedule = Schedule.new(
-  plant_id: 1,
-  user_id: 2,
-  image_url: "https://www.thespruce.com/thmb/JToiCM2g8ssRFBOyIvvB_G5pMDY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/snake-plant-care-overview-1902772-04-d3990a1d0e1d4202a824e929abb12fc1-349b52d646f04f31962707a703b94298.jpeg",
-  watering_start_date: "2024-10-31 10:30"
+  plant_id: 3,
+  user_id: 1,
+  image_url: "https://images.squarespace-cdn.com/content/v1/5e1a9e93d343ec0c523f4074/c0f6661b-5a2b-4d76-96c0-90554e1c02eb/Begonia_Cane_3323.jpg",
+  watering_start_date: "2024-11-2 08:30"
 )
 schedule.save
