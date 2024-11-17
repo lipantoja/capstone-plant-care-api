@@ -25,15 +25,15 @@
 # )
 # schedule.save
 
-# Plant.create(
-#   name: "Bamboo",
-#   description: "A medicinal plant known for its soothing gel.",
-#   amount_of_sun: 4,
-#   days_to_water: 7,
-#   image_url: "https://example.com/images/aloe_vera.jpg"
-# )
+Plant.create(
+  name: "Orchid",
+  description: "A plant known for its long vines and vibrant beauty.",
+  amount_of_sun: 8,
+  days_to_water: 10,
+  image_url: "https://www.extension.iastate.edu/news/files/eo-news/images/phalaenopsis_purple.jpeg"
+)
 
-# Update an existing plant
-plant = Plant.find_by(id: 3)
-# plant.update(description: "A panda's favorite snack and the largest member of the grass family.")
-plant.update(image_url: "https://images.squarespace-cdn.com/content/v1/5e1a9e93d343ec0c523f4074/c0f6661b-5a2b-4d76-96c0-90554e1c02eb/Begonia_Cane_3323.jpg")
+# # Update an existing plant
+# plant = Plant.find_by(id: 3)
+# # plant.update(description: "A panda's favorite snack and the largest member of the grass family.")
+# plant.update(image_url: "https://images.squarespace-cdn.com/content/v1/5e1a9e93d343ec0c523f4074/c0f6661b-5a2b-4d76-96c0-90554e1c02eb/Begonia_Cane_3323.jpg")
